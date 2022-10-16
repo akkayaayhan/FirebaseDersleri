@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>124587175400-gma2e57c9jdpni4a48ac3gaq23c5ihdc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.124587175400-gma2e57c9jdpni4a48ac3gaq23c5ihdc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDIwcwJOEvaN9NFNHZN6fx2MaYU8itEOKo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>124587175400</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ayhanakkaya.firebaseLessons</string>
+	<key>PROJECT_ID</key>
+	<string>fir-lessons-7c7c3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-lessons-7c7c3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:124587175400:ios:74b9771433ea064384485d</string>
+</dict>
+</plist>
