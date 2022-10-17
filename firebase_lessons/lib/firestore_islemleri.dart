@@ -35,5 +35,46 @@ class FireStoreIslemleri extends StatelessWidget {
     _eklenecekUser['olusmaTarihi'] = FieldValue.serverTimestamp();
 
     await firestore.collection('users').add(_eklenecekUser);
+
+    final city = <String, String>{
+      "name": "Los Angeles",
+      "state": "CA",
+      "country": "USA"
+    };
+
+    await firestore
+        .collection("cities")
+        .doc("LA")
+        .set(city)
+        .onError((e, _) => debugPrint("Error writing document: $e"));
+
+    final data = {"capital": true};
+
+    await firestore
+        .collection("cities")
+        .doc("LA")
+        .set(data, SetOptions(merge: true));
+
+    final docData = {
+      "stringExample": "Hello world!",
+      "booleanExample": true,
+      "numberExample": 3.14159265,
+      "dateExample": Timestamp.now(),
+      "listExample": [1, 2, 3],
+      "nullExample": null
+    };
+
+    final nestedData = {
+      "a": 5,
+      "b": true,
+    };
+
+    docData["objectExample"] = nestedData;
+
+    await firestore
+        .collection("data")
+        .doc("dataTipleri")
+        .set(docData)
+        .onError((e, _) => debugPrint("Error writing document: $e"));
   }
 }
