@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_lessons/firestore_islemleri.dart';
+import 'package:firebase_lessons/user_information.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'FirebaseProje',
       theme: ThemeData(
+        backgroundColor: Colors.black,
         primarySwatch: Colors.blue,
       ),
       //home: const MyHomePage(title: 'Firebase Dersleri'),
